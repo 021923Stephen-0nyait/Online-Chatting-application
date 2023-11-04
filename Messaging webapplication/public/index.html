@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styling.css">
+        <script src="client.js"></script>
+        <title>Sign in</title>
+    </head>
+    <body id="bod">
+        <div><header><img class="logo" src='img/chath.png' alt="logo">Let's Chat</header></div>
+        <div class="sidenav" hidden>
+            <a >About</a>
+            <a >Services</a>
+            <a >Clients</a>
+            <a >Contact</a>
+        </div>
+        <div class="contain" id="contain">
+            <div>
+                <img class="phone" src='img/phone.png' alt="phone">
+                <p id="demo"></p>
+            </div>
+
+            <img class="msg" src='img/msg.png' alt="img design">
+            <div class="logining"> 
+                <div class="item2">
+                    <div><img class="logo" src='img/chath.png' alt="logo"></div>
+                    <div><b>LOGIN</b></div>
+                </div>
+                <div class="item3">
+                    <div><b>EMAIL</b></div>
+                </div>
+                <div class="item3">
+                    <input id="loginMail">
+                </div>
+                <div class="item3">
+                    <b>PASSWORD</b>
+                </div>
+                <div class="item3">
+                    <input id="loginPassword">
+                </div>
+                <div class="item8">
+                    <button class="btn1" onclick="LoginUser()">Enter</button>
+                    <div class="item4">Don't have an account?<a href="/register" style="color: blue;">Register</a></div>
+                    <div id="result" style="color: red;"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer></footer>
+    </body>
+</html>
